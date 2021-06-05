@@ -1,0 +1,16 @@
+title: GCD of two numbers
+description: Python program to print GCD of two numbers
+template:
+  repo: gcd-of-two-numbers-template
+  name: gcd-of-two-numbers
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
